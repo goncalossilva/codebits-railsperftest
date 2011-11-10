@@ -8,4 +8,4 @@
 
 !SLIDE
 
-### http://railsperftest.heroku.com
+### http://codebits-railsperftest.heroku.com
