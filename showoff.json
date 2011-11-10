@@ -1,0 +1,10 @@
+{ "name": "Performance analysis of Rails apps", 
+  "sections": [
+    {"section": "intro"},
+    {"section": "why_care"},
+    {"section": "my_work"},
+    {"section": "how_to"},
+    {"section": "demo"},
+    {"section": "outro"}
+  ]
+}

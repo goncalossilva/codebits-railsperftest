@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu'), url('http://themes.googleusercontent.com/static/fonts/ubuntu/v3/vRvZYZlUaogOuHbBTT1SNevvDin1pK8aKteLpeZ5c0A.woff') format('woff');
+}
+
+body {
+  background: #ccc;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+}
+
+#preso, video {
+  -webkit-box-shadow: 0 0 35px rgba(0,0,0,1.0);
+  -moz-box-shadow: 0 0 35px rgba(0,0,0,1.0);
+  box-shadow: 0 0 35px rgba(0,0,0,1.0);
+}
+
+.slide {
+  background: #0D2106;
+
+  color: #eee;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.slide.main {
+  background: url(chess.png) repeat;
+}
+
+.highlight {
+  color: #FF772B;
+  font-weight: bold;
+}
+
+a {
+  color: #bbb;
+}
+
+a:hover {
+  color: #eee;
+}
+
+h1 {
+  font-size: 4.5em;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+h2 {
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+h3 {
+  font-size: 2.5em;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+h4 {
+  font-size: 2.0em;
+  font-weight: normal; 
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+h1, h2, h3, h4, blockquote {
+  margin: 1.4em 0.7em 1.4em 0.7em;
+}
+
+blockquote {
+  text-align: center;
+  font-style: italic;
+  margin-top: 75px;
+}
+
+.content > pre {
+  margin: 0 30px;
+  font-size: 1.5em;
+  line-height: 1.1em;
+  padding: 15px 20px;
+  border: 2px solid #555;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+
+code.executing {
+  background-color: #000;
+}
+
+div.results {
+  width: auto;
+  background: #eee;
+  color: #222;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.5em;
+  top: auto;
+  bottom: 0;
+  right: 0;
+  margin: 0 10px 10px 0;
+  border: 3px solid #888;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+div.two-column-container {
+  overflow: hidden;
+	width: 100%
+}
+pre.two-column {
+  font-size: 1.4em;
+  width: 450px;
+  float:left;
+  padding-left: 0;
+}
+pre.two-column.left {
+  margin: 0 10px 0 25px;
+}
+pre.two-column.right {
+  margin: 0 25px 0 10px;
+}
+
+li {
+  font-size: 1.3em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  margin: 25px 25px 25px 50px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+li li {
+  font-size: 0.95em;
+}
+
+div.execute pre:hover {
+  cursor: pointer;
+}
